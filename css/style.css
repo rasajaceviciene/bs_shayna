@@ -16,7 +16,7 @@ h1{
     line-height: 50px;      
 }
 
-@media(min-width:1200px){
+@media(min-width:1400px){
     h1{
         font-size: 55px;
         line-height: 82.5px;    
@@ -55,12 +55,16 @@ p{
 
 .container{
     background-color: #E8E1DA;
-    padding: 15px 30px 35px 30px;
+}
+
+.main-container{
+    padding: 30px 55px 35px 55px;
 }
 
 @media(min-width:992px){
-    .container{
-        padding: 15px 60px 35px 60px;
+    .main-container{
+        max-width: 90%;
+        padding: 30px 110px 70px 110px;
     }
 }
 
@@ -92,8 +96,8 @@ p{
         width:110px;
         height: 45px;
         text-align: center;
-       padding-top: 11px;
-       font-weight: 400;
+        padding-top: 11px;
+        font-weight: 400;
     }
     .modal-link:hover{
         background-color: #9B948E;
@@ -104,7 +108,17 @@ p{
 /*Main*/
 
 article{
-    align-items: center;  
+    align-items: center; 
+}
+
+article .row{
+    margin-top: 25px;
+}
+
+@media(min-width:992px){
+    article .row{
+        margin-top: 55px;
+    }
 }
 
 article img{
@@ -168,7 +182,7 @@ article p{
 
 .trusted-by-title h5{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 70px;
 }
 
 .trusted-by-companies{
@@ -200,7 +214,7 @@ article p{
     display: block;
 }
 
-@media(min-width:1200px){
+@media(min-width:1300px){
     .logo-only{
         display: none;
     }
@@ -218,12 +232,13 @@ article p{
 /*Section Career*/
 
 .career-title{
+    margin-top: 70px;
     margin-bottom: 40px;
 }
 
 @media(min-width:992px){
     .career-title{
-        margin-top: 40px;
+        margin-top: 90px;
     }
 }
 
